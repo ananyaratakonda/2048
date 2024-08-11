@@ -1,0 +1,100 @@
+body{
+    font-family: "PT Sans";
+    text-align: center;
+    background-color: #D9D9D9;
+}
+
+hr{
+    width: 500px;
+
+}
+
+#board{
+    width: 400px;
+    height: 400px;
+    background-color: #4A4E69;
+    border: 6px solid #22223B;
+
+    margin: 0 auto;  /* this will make the board centered */
+   
+    /* when we make the tiles this will make them stay inside */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #22223B;
+
+    font-size: 40px;
+    display: flex;
+    justify-content: center; /* this will make the text centered */
+    align-items: center; /* this will make the text centered , but vertically?*/
+}
+
+.x2{
+    background-color: #342F58;
+    color: #F2E9E4;
+}
+
+.x4{
+    background-color: #5F668F;
+    color: #F2E9E4;
+}
+
+.x8{
+    background-color: #353E7D;
+    color: #F2E9E4;
+}
+
+.x16{
+    background-color: #424B83;
+    color: #F2E9E4;
+}
+
+.x32{
+    background-color: #A58BA1;
+    color: #F2E9E4;
+}
+
+.x64{
+    background-color: #7E617A;
+    color: #F2E9E4;
+}
+
+.x128{
+    background-color: #9C7496;
+    color: #F2E9E4;
+}
+
+.x256{
+    background-color: #A87A70;
+    color: #F2E9E4;
+}
+
+.x512{
+    background-color: #B7928A;
+    color: #F2E9E4;
+}
+
+.x1024{
+    background-color: #C7958A;
+    color: #5F668F;
+}
+
+.x2048{
+    background-color: #C9ADA7;
+    color: #5F668F;
+}
+
+.x4096{
+    background-color: #F1D8CB;
+    color: #5F668F;
+}
+
+.x8192{
+    background-color: #F2E9E4;
+    color: #5F668F;
+}
